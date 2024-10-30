@@ -80,6 +80,7 @@ Latest and greatest source of Jenkins Keycloak Plugin can be found on [GitHub]. 
 Building From Source
 ---
 * Checkout or download the source code from the latest tag on [GitHub]
+* Install openjdk-17-jdk to build the plugin (tested on jdk 17.0.12)
 * Execute `mvn clean verify` from your local source code folder (install [Maven] if not already done).
 * Find the `keycloak.hpi` file in the `target` subfolder.
 
